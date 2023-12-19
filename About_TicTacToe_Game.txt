@@ -1,0 +1,27 @@
+The game is played on a grid that's 3 squares by 3 squares. You are X , your friend (or the computer in this case) is O.
+Players take turns putting their marks in empty squares. The first player to get 3 of her marks in a row (up, down,
+across, or diagonally) is the winner.
+
+Overview
+This game can be played in a 3x3 grid. The game can be played by two players. There are two options fro players:
+1. Human
+2. Computer
+
+Players:
+For the option human, both the players are human and for the option computer, the first player is human and the second
+player is computer.
+
+Theory of Game:
+Player can choose between two symbols with his opponent, usual games use "X" and "O". If first player choose "X" then
+the second player have to play with "O" and vice versa.
+
+A player marks any of the 3x3 squares with his symbol (maybe “X” or “O”) and his aim is to create a straight line
+horizontally or vertically or diagonally with two intentions:
+
+    a) Create a straight line before his opponent to win the game.
+    b) Restrict his opponent from creating a straight line first.
+
+In case logically no one can create a straight line with his own symbol, the game results a tie.
+
+Hence, there are only three possible results – a player wins, his opponent (human or computer) wins, or it’s a tie.
+
